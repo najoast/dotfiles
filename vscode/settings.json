@@ -1,0 +1,33 @@
+{
+    "vim.easymotion": true,
+    "vim.leader": ",",
+    "vim.sneak": true,
+    "editor.lineNumbers": "relative",
+
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        },
+    ],
+
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["Z", "Z"],
+            "commands": [ ":w" ]
+        },
+        {
+            "before": ["H"],
+            "after": ["g", "T"],
+        },
+        {
+            "before": ["L"],
+            "after": ["g", "t"]
+        },
+    ],
+    "window.zoomLevel": 1,
+    "files.autoSave": "onFocusChange",
+    "lua.targetVersion": "5.3",
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "editor.renderWhitespace": "boundary",
+}
